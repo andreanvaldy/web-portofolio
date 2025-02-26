@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .nav-bar {
+      display: flex;
+      gap: 15px;
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: #f4a261;
+      font-size: 18px;
+    }
+    .nav-bar a:hover {
+      color: #fff;
+    }
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+      padding: 20px;
+    }
+    .project-card {
+      background-color: #333;
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .project-card h3 {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #f4a261;
+    }
+    .project-card p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    .github-btn {
+      text-decoration: none;
+      color: #fff;
+      background-color: #333;
+      border: 2px solid #f4a261;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    .github-btn:hover {
+      background-color: #f4a261;
+      border-color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Projects</h1>
+  <nav class="nav-bar">
+    <a href="portofolio.html">Home</a>
+    <a href="portofolio2.html">About</a>
+    <a href="portofoli4.html">Projects</a>
+  </nav>
+</header>
+
+<section class="project-container">
+  <div class="project-card">
+    <img src="path_to_project_image1.jpg" alt="Project Image">
+    <h3>Portfolio Website</h3>
+    <p>Personal portfolio built with HTML, CSS, and JavaScript.</p>
+    <a href="https://github.com/yourgithubusername" class="github-btn" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <img src="path_to_project_image2.jpg" alt="Project Image">
+    <h3>E-commerce Platform</h3>
+    <p>Full-stack MERN e-commerce website with authentication and payment integration.</p>
+    <a href="https://github.com/yourgithubusername" class="github-btn" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <img src="path_to_project_image3.jpg" alt="Project Image">
+    <h3>Task Manager App</h3>
+    <p>A task management app built using React and Node.js.</p>
+    <a href="https://github.com/yourgithubusername" class="github-btn" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <img src="path_to_project_image4.jpg" alt="Project Image">
+    <h3>Blog Platform</h3>
+    <p>Simple blogging platform using Express and MongoDB.</p>
+    <a href="https://github.com/yourgithubusername" class="github-btn" target="_blank">View on GitHub</a>
+  </div>
+</section>
+
+</body>
+</html>

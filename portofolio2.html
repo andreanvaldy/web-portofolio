@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .nav-bar {
+      display: flex;
+      gap: 15px;
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: #f4a261;
+      font-size: 18px;
+    }
+    .nav-bar a:hover {
+      color: #fff;
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+    .about img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .about-content {
+      max-width: 600px;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .section-title {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #f4a261;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+      padding: 20px;
+    }
+    .skill-box {
+      background-color: #222;
+      padding: 15px;
+      border-radius: 5px;
+      text-align: center;
+      border: 1px solid #f4a261;
+    }
+    .skill-box img {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="section-title">About Me</h1>
+  <nav class="nav-bar">
+    <a href="portofolio.html">Home</a>
+    <a href="portofolio2.html">About</a>
+    <a href="portofoli4.html">Project</a>
+  </nav>
+</header>
+
+<section class="about">
+  <img src="D:/porto2.jpg" alt="Profile Picture">
+  <div class="about-content">
+    <h2 class="section-title">Full-stack mern</h2>
+    <p>Halo semuanya, nama saya Andrean Valdy Wijaya, saya seorang programmer Fullstack MERN dan saya berasal dari Gresik, Jawa Timur. Saya sudah menekuni bidang programming sejak masih SMK di Raden Paku Wringinanom dengan jurusan Teknik Komputer dan Jaringan.</p>
+    <p>Tugas saya adalah membangun situs web yang menarik dan ramah serta membuat semua orang yang memakai jasa saya sangat puas. Saya tidak pernah berhenti belajar teknologi baru karena zaman sekarang teknologi semakin berkembang.</p>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section class="skills-container">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <img src="D:/html.jpg" alt="HTML Logo">
+      <p>HTML</p>
+    </div>
+    <div class="skill-box">
+      <img src="D:/csss.jpg" alt="CSS Logo">
+      <p>CSS</p>
+    </div>
+    <div class="skill-box">
+      <img src="D:/javascript.jpg" alt="Javascript Logo">
+      <p>Javascript</p>
+    </div>
+    <div class="skill-box">
+      <img src="D:/nodejs.png" alt="NodeJS Logo">
+      <p>NodeJS</p>
+    </div>
+    <div class="skill-box">
+      <img src="D:/bosstrap.jpg" alt="Bootstrap Logo">
+      <p>Bootstrap</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
